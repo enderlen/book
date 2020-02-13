@@ -229,7 +229,7 @@ will not set ``id``.
 
 The record is further populated into :php:attr:`CRUD::virtual_page` proprety::
 
-    $crud->addFrame('click me')->set(funciton($p) {
+    $crud->addFrame('click me')->set(function($p) {
         // $p is a virtual page
 
         $m=$p->owner->model;
